@@ -1,0 +1,5 @@
+objcopy.exe --gap-fill 0xFF --pad-to 0x040000 -I ihex bootloader.hex -O binary bootloader.bin
+
+CCLoader_x86_64.exe 10 bootloader.bin 0
+CC2530ZNP-Prod
+CCLoader_x86_64.exe 10 CC2530ZNP-Prod.bin 0
