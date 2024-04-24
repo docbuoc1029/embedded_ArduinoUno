@@ -7,3 +7,7 @@
 ## 2. Network layer
 - ZIGBEE
 - LoRaWAN
+## 3. Data link layer
+- MQTT
+
+*NOTE: Recommend read .pdf files.*
